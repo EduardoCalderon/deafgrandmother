@@ -1,7 +1,6 @@
 require "sinatra"
 
 get '/' do
-@phrase: params[:phrase]
 erb :index
 end
 
